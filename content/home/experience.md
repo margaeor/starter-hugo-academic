@@ -25,17 +25,31 @@ experience:
   - title: Co-Founder & AI Software Engineer
     company: Guestflip
     company_url: ''
-    company_logo: org-gc
+    company_logo: org-gf
     location: Greece
-    date_start: '2017-01-01'
-    date_end: ''
+    date_start: '2017-12-01'
+    date_end: '2019-02-01'
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Building ML Infrastructure
+        * Software Engineering
+        * Web Development
+  - title: Research Intern
+    company: Foundation of Research and Technology Hellas (FORTH)
+    company_url: ''
+    company_logo: org-gf
+    location: Greece
+    date_start: '2019-07-01'
+    date_end: '2019-09-25'
+    description: |2-
+      Worked on a project called "Human Behavioral Profiling" in the Computer Vision and Robotics Laboratory. Our goal was to utilize dynamic models and reinforcement learning in order to make a robotic arm imitate tasks performed by a human.
+      
+      Responsibilities included:
         
+        * Develop dynamic models in C++ and Python
+        * Adapt these models to use Reinforcement Learning
+        * Interact with ROS to control a robotic arm
   # - title: Professor of Semiconductor Physics
   #   company: University X
   #   company_url: ''
