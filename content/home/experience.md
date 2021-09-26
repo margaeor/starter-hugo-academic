@@ -38,7 +38,7 @@ experience:
   - title: Research Intern
     company: Foundation of Research and Technology Hellas (FORTH)
     company_url: ''
-    company_logo: org-gf
+    company_logo: org-forth
     location: Greece
     date_start: '2019-07-01'
     date_end: '2019-09-25'
