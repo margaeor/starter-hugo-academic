@@ -17,17 +17,17 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - #description: 90%
+  icon: ML_image
+  icon_pack: custom
+  name: Machine Learning
+- #description: 100%
+  icon: optimization_image
+  icon_pack: custom
+  name: Optimization
+- #description: 10%
   icon: python
   icon_pack: fab
-  name: Python
-- #description: 100%
-  icon: chess
-  icon_pack: fas
-  name: Chess
-- #description: 10%
-  icon: camera-retro
-  icon_pack: fas
-  name: Photo Editing
+  name: Programming
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"

@@ -20,7 +20,9 @@ bio: My research interests lie in the intersection of Machine Learning, Mathemat
 interests:
 - Machine Learning
 - Optimization
-- Software
+- Deep Learning
+- Natural Language Processing
+- Software Engineering
 
 # Education to show in About widget
 education:
@@ -61,15 +63,17 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "geomar at mit dot edu"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-George Margaritis is a PhD student at the Operations Research Center of the Massachusetts Institute of Technology (MIT).
-His research revolves around designing tools that leverage Machine Learning and Optimization
-in order to adress real-world problems.
+I am currently a PhD student at the Operations Research Center of the Massachusetts Institute of Technology (MIT ORC).
+My research interests lie in the intersection of Machine Learning and Optimization,
+and in particular how Machine Learning can be used with and for Optimization.
+I am also interested in applications of Deep Learning and Natural Language Processing
+in the domain of Healthcare.
 
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
