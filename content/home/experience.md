@@ -22,11 +22,53 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: 'Graduate Researcher – Advisor: Prof. D. Bertsimas'
+    company: Massachusetts Institute of Technology
+    company_url: 'https://web.mit.edu/'
+    company_logo: org-mit
+    location: Cambridge, MA
+    date_start: '2021-09-01'
+    date_end: ''
+    description: |2-
+        **Research Projects:**
+        * Develop RAG-based system that significantly improves diagnostic accuracy and explainability of healthcare pipelines ([Preprint](https://arxiv.org/abs/2507.00205), revision in Nature Digital Medicine (npj))
+
+        * Large Language Models for diagnosing 100s of healthcare conditions from the patient's Electronic Health Record (ongoing work).
+
+        * Efficiently adapting multimodal Vision & LLM embeddings into a downstream task for significant perfromance improvements ([Preprint](https://arxiv.org/pdf/2502.02048))
+
+        * Large Language Models to formulate and solve Robust Optimization Problems ([Preprint](https://arxiv.org/abs/2501.00568))
+
+        * Solving Global Optimization Problems using Machine Learning ([Journal of Global Optimization](https://link.springer.com/article/10.1007/s10898-024-01434-9))
+
+  - title: ML Intern – Google Cloud AI
+    company: Google
+    company_url: 'https://cloud.google.com/'
+    company_logo: org-google
+    location: Sunnyvale, CA
+    date_start: '2025-06-01'
+    date_end: '2025-08-31'
+    description: |2-
+      * Implemented and trained 10+ recommendation models using state-of-the-art LLMs. 
+      * Compared LLM-based recommenders against traditional models and production systems. 
+      * Implemented methods that improved cold-start recommendation performance by 10+%.
+  - title: ML Research Engineer Intern – Recommendation Algorithms
+    company: Netflix
+    company_url: 'https://netflix.com/'
+    company_logo: org-netflix
+    location: Los Gatos, CA
+    date_start: '2024-05-01'
+    date_end: '2024-08-31'
+    description: |2-
+      * Worked on improving Netflix's core recommendation algorithm. 
+      * Implemented a multimodal recommendation pipeline using state-of-the-art LLMs, Vision Transformers and Contrastive Learning. 
+      * Scaled the pipeline to production-size data and showed 3-5% improvement in recommendation quality.
+
   - title: Co-Founder & AI Software Engineer
     company: Guestflip
     company_url: ''
     company_logo: org-gf
-    location: Greece
+    location: Athens, Greece
     date_start: '2017-12-01'
     date_end: '2019-02-01'
     description: |2-
@@ -35,11 +77,12 @@ experience:
         * Building ML Infrastructure
         * Software Engineering
         * Web Development
+
   - title: Research Intern
     company: Foundation of Research and Technology Hellas (FORTH)
     company_url: ''
     company_logo: org-forth
-    location: Greece
+    location: Heraklion, Greece
     date_start: '2019-07-01'
     date_end: '2019-09-25'
     description: |2-
@@ -50,14 +93,6 @@ experience:
         * Develop dynamic models in C++ and Python
         * Adapt these models to use Reinforcement Learning
         * Interact with ROS to control a robotic arm
-  # - title: Professor of Semiconductor Physics
-  #   company: University X
-  #   company_url: ''
-  #   company_logo: org-x
-  #   location: California
-  #   date_start: '2016-01-01'
-  #   date_end: '2020-12-31'
-  #   description: Taught electronic engineering and researched semiconductor physics.
 
 design:
   columns: '2'

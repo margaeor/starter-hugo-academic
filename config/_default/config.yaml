@@ -7,6 +7,9 @@ title: Academic # Website name
 baseurl: 'https://example.com/' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
+# Google Analytics (if you want to use it)
+googleAnalytics: ''
+
 ############################
 ## LANGUAGE
 ############################
@@ -31,7 +34,8 @@ module:
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+pagination:
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -66,3 +70,21 @@ related:
       weight: 100
     - name: categories
       weight: 70
+
+############################
+## SECURITY
+############################
+
+security:
+  enableInlineShortcodes: false
+  
+  exec:
+    allow: ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']
+    osEnv: ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE|PROGRAMDATA)$']
+  
+  funcs:
+    getenv: ['^HUGO_', '^CI$', '^WC_']
+  
+  http:
+    methods: ['(?i)GET|POST']
+    urls: ['.*']

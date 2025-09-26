@@ -150,6 +150,8 @@ marketing:
   google_site_verification: ''
   baidu_site_verification: ''
   baidu_tongji: ''
+  # Disable Google Analytics to avoid template errors
+  disable_google_analytics: true
 cms:
   branch: master
   local_backend: false
