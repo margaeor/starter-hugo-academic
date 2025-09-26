@@ -29,6 +29,7 @@ item:
     date_end: ''
     description: |2-
         * **GPA 4.9/5.0**: Quantitative methods for Natural Language Processing, Machine Learning under a modern Optimization Lens, Linear Optimization, Integer Optimization, Statistical Learning, Fundamentals of Probability, Robust Optimization, Nonlinear Optimization.
+        * **Societies**: Hellenic Student Association of MIT (President - 2022-2023) 
         
   - title: Diploma & Integrated M.Eng in Electrical & Computer Engineering
     organization: Technical University of Crete

@@ -31,15 +31,15 @@ experience:
     date_end: ''
     description: |2-
         **Research Projects:**
-        * Develop RAG-based system that significantly improves diagnostic accuracy and explainability of healthcare pipelines ([Preprint](https://arxiv.org/abs/2507.00205), revision in Nature Digital Medicine (npj))
+        * Develop RAG-based system that significantly improves diagnostic accuracy and explainability of healthcare pipelines ([Preprint](https://arxiv.org/abs/2507.00205), revision in *Nature Digital Medicine (npj)*)
 
-        * Large Language Models for diagnosing 100s of healthcare conditions from the patient's Electronic Health Record (ongoing work).
+        * Large Language Models for diagnosing **100s** of healthcare conditions from the patient's Electronic Health Record (ongoing work).
 
         * Efficiently adapting multimodal Vision & LLM embeddings into a downstream task for significant perfromance improvements ([Preprint](https://arxiv.org/pdf/2502.02048))
 
         * Large Language Models to formulate and solve Robust Optimization Problems ([Preprint](https://arxiv.org/abs/2501.00568))
 
-        * Solving Global Optimization Problems using Machine Learning ([Journal of Global Optimization](https://link.springer.com/article/10.1007/s10898-024-01434-9))
+        * Solving Global Optimization Problems using Machine Learning ([*Journal of Global Optimization*](https://link.springer.com/article/10.1007/s10898-024-01434-9))
 
   - title: ML Intern – Google Cloud AI
     company: Google
@@ -49,9 +49,9 @@ experience:
     date_start: '2025-06-01'
     date_end: '2025-08-31'
     description: |2-
-      * Implemented and trained 10+ recommendation models using state-of-the-art LLMs. 
+      * Implemented and trained 8+ recommendation models using state-of-the-art LLMs. 
       * Compared LLM-based recommenders against traditional models and production systems. 
-      * Implemented methods that improved cold-start recommendation performance by 10+%.
+      * Implemented methods that improved cold-start recommendation performance by **10+**%.
   - title: ML Research Engineer Intern – Recommendation Algorithms
     company: Netflix
     company_url: 'https://netflix.com/'
@@ -62,7 +62,7 @@ experience:
     description: |2-
       * Worked on improving Netflix's core recommendation algorithm. 
       * Implemented a multimodal recommendation pipeline using state-of-the-art LLMs, Vision Transformers and Contrastive Learning. 
-      * Scaled the pipeline to production-size data and showed 3-5% improvement in recommendation quality.
+      * Scaled the pipeline to production-size data and showed **3-5%** improvement in recommendation quality.
 
   - title: Co-Founder & AI Software Engineer
     company: Guestflip
@@ -72,11 +72,10 @@ experience:
     date_start: '2017-12-01'
     date_end: '2019-02-01'
     description: |2-
-        Responsibilities include:
-        
-        * Building ML Infrastructure
-        * Software Engineering
-        * Web Development
+        *	Developed an NLP system that analyzes hotel reviews, detects polarity, and identifies guests’ complaints.
+        *	The system suggests responses to the review depending on the sentiment and the type of complaint.
+        *	Full-stack web development of the company’s web platform in Laravel-PHP.
+
 
   - title: Research Intern
     company: Foundation of Research and Technology Hellas (FORTH)
