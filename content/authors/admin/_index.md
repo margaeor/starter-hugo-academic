@@ -1,12 +1,12 @@
 ---
 # Display name
-title: George Margaritis
+title: Georgios Margaritis
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: PhD student
+role: PhD Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
